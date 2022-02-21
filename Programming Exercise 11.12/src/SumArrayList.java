@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class SumArrayList {
 
   // Reads the values that the user inputs and adds them to the ArrayList
-  public static ArrayList<Double> readArrList(ArrayList<Double> list) {
+  public static void readArrList(ArrayList<Double> list) {
     System.out.println("Enter 5 numbers: ");
     Scanner scanner = new Scanner(System.in);
     double userNum;
@@ -18,7 +18,6 @@ public class SumArrayList {
       list.add(userNum);
     }
     scanner.close();
-    return list;
   }
 
   // Calculates the sum of every value in the ArrayList
